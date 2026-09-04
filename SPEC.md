@@ -45,4 +45,4 @@ All open commitments across all people, sorted by due date. Overdue ones stand o
 
 ## Search
 
-Semantic search over notes and conversations. A phrase like "annoyed with onboarding" also finds "frustration during first login" — not only exact word matches. Embeddings come from a local model, `paraphrase-multilingual-MiniLM-L12-v2` — no external service. The vectors live in Postgres.
+Semantic search over notes and conversations. A phrase like "annoyed with onboarding" also finds "frustration during first login" — not only exact word matches. Search must work across German, English and French; embeddings come from a local model (see `ARCHITECTURE.md`) — no external service. The vectors live in Postgres.

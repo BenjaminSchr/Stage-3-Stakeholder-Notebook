@@ -69,7 +69,5 @@ The two prompts live on the Stage 3 page, not in this repo. `/paultask` is the o
 
 ## Open questions
 
-1. `SPEC.md` names the embedding model. That is a build decision sitting in the spec — does it move
-   to `ARCHITECTURE.md` next to the base image, or stay as a requirement?
-2. The Stage 3 page still says `docker compose up --build` and that the fork contains the screens.
+1. The Stage 3 page still says `docker compose up --build` and that the fork contains the screens.
    Both are out of date against this repo.

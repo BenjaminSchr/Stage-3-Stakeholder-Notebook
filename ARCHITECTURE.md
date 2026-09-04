@@ -48,6 +48,7 @@ one service, one command: `docker compose up -d --build`. Details in `DATABASE.m
 |---|---|
 | Container | `<project>` |
 | Base image | `pgvector/pgvector:pg16` + Python 3.12, pinned |
+| Embedding model | `paraphrase-multilingual-MiniLM-L12-v2`, 384 dims, multilingual (DE/EN/FR), loaded via `sentence-transformers`, baked into the image |
 | Exposed port | `8000` (app only — Postgres stays inside) |
 | Data | named volume `<project>_pgdata` |
 
